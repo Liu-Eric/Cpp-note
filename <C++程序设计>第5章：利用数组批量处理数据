@@ -34,11 +34,23 @@
 字符串结尾由系统自动加上'\0'。
 strcat(char[], const char[])：字符串拼接
 strcpy(char[], const char[]):将第二个字符串复制给第一个
-
-
-
-
-
+strcmp(const char[], const char[]):字符串比较，逐个字母比较
+strlen(const char[]):字符数组长度
 
 5.6 C++处理字符串的方法--字符串类数组与字符串变量 
+C++提供了字符串数据类型，它是C++标准库中的一个类。
+#include <string> 
+定义字符串 string string1 = "china"
+字符串变量可以修改 string1[1] = "i"
+字符串变量可以+（拼接），比较
+定义字符串数据 string a[3] = {"aaa","bbb","ccc"}
+
+
+
+
+
+
+
+
+
 
